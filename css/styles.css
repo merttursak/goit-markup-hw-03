@@ -96,16 +96,14 @@ li{
         
         
 }
-.header-design .container .nav-bar .nav-list .list{
+.list{
     padding: 24px 0;
-
 }
 
-.header-design .container .contact-info{
+.contact-list{
     display: flex;
     gap: 40px;
     color: var(--body-text);
-    
 }
 
 .section-one{
