@@ -6,6 +6,9 @@
     --body-text: #434455;
 
 }
+img{
+    display: block;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -61,11 +64,9 @@ li{
 
 .container{ 
     width: 1158px;
-    border: 1px solid red;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-design{
@@ -74,15 +75,16 @@ li{
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.header-design .nav-bar{
+.header-design .container .nav-bar{
         
         display: flex;
         
 }
 
-.header-design .nav-bar .nav-list{
+.header-design .container .nav-bar .nav-list{
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -91,7 +93,7 @@ li{
         
 }
 
-.header-design .contact-info{
+.header-design .container .contact-info{
     display: flex;
     gap: 40px;
     color: var(--body-text);
