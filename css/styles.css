@@ -92,11 +92,10 @@ li{
 
 .header-design .container .nav-bar .nav-list{
         display: flex;
-        gap: 40px;
-        
-        
+        gap: 40px;     
 }
-.list{
+
+.header-design .container .nav-bar .nav-list .list{
     padding: 24px 0;
 }
 
