@@ -67,6 +67,9 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
 
 .header-design{
@@ -74,23 +77,28 @@ li{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
     border-bottom: 1px solid #e7e9fc;
+}
+.header-design .container .logo{
+    margin-right: 76px;
 }
 
 .header-design .container .nav-bar{
         
         display: flex;
+        align-items: center;
         
 }
 
 .header-design .container .nav-bar .nav-list{
         display: flex;
-        align-items: center;
-        flex-direction: row;
         gap: 40px;
         
         
+}
+.header-design .container .nav-bar .nav-list .list{
+    padding: 24px 0;
+
 }
 
 .header-design .container .contact-info{
