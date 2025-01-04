@@ -112,6 +112,7 @@ li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 188px 0;
 }
 
 .section-one h1{
