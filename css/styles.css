@@ -109,25 +109,34 @@ li{
     display: flex;
     background-color: var(--dark);
     height: 600px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding: 188px 0;
+
 }
 
 .section-one h1{
     color: #ffffff;
-    width: 496px;
+    max-width: 496px;
     text-align: center;
 }
+
 .section-one button{
     background-color: var(--primary-brand);
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     color: #ffffff;
+    border: none;
+    display: block;
+    margin: 0 auto;
     
 }
 
 .section-one button:hover{
     cursor: pointer;
+}
+
+.section-one-design{
+    display: flex;
+        background-color: var(--dark);
+        height: 600px;
+       
 }
