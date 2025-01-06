@@ -62,10 +62,8 @@ li {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  flex-direction: column;
-  
-
-  
+  flex-direction: column;  
+  display: flex;
 }
 
 .header-design {
@@ -99,7 +97,8 @@ li {
 .contact-info{
   display: flex;
   position: absolute;
-  margin-left: 940px;
+  margin-left: 740px;
+  margin-top: 24px;
 
 }
 
