@@ -163,7 +163,7 @@ li {
   gap: 24px;
 }
 
-.features-list-material {
+.features-section .container .features-list .features-list-material {
 width: calc((100% - 72px) / 4);
 }
 
@@ -194,11 +194,11 @@ width: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
-.our-team-info {
+.our-team-section .our-team-list .our-team-info {
 width: calc((100% - 72px) / 4);
 }
 
-.personal-image {
+.our-team-section .our-team-list .our-team-info img {
     border-top-left-radius: 0px;
 border-top-right-radius: 0px;
     border-top-right-radius: 4px;
