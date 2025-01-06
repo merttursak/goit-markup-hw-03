@@ -63,7 +63,6 @@ li {
   margin: 0 auto;
   padding: 0 15px;
   flex-direction: column;
-  display: flex;
   
 
   
@@ -75,6 +74,7 @@ li {
   align-items: center;
   flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
+  
   
 }
 .header-design .container .logo {
@@ -99,8 +99,7 @@ li {
 .contact-info{
   display: flex;
   position: absolute;
-  margin-top: 24px;
-  margin-left: 740px;
+  margin-left: 940px;
 
 }
 
@@ -199,6 +198,7 @@ width: calc((100% - 72px) / 4);
 .our-team-info {
 width: calc((100% - 72px) / 4);
 }
+
 .personal-image {
     border-top-left-radius: 0px;
 border-top-right-radius: 0px;
